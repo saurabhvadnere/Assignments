@@ -24,7 +24,7 @@ contract DecentralizedVoting {
 
     constructor() {
         owner = msg.sender;
-        registrationDeadline = 1723635000;
+        registrationDeadline = 1723635000; // timestamp of  "August 14, 2024 5:00:00 PM"
     }
 
     function register() public onlyBeforeDeadline {
