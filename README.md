@@ -1,9 +1,9 @@
 # Decentralized Voting System
 ## To create a decentralized voting system using Solidity, we will implement three primary functions:
 
- Registration
- Votecasting
- Blacklisting
+1. Registration
+2. Votecasting
+3. Blacklisting
 
  ### Registration:
  -> Theregister function allows voters to register before the registration
@@ -20,7 +20,8 @@
  
 
 
-##Decentralized_Voting_system.sol
+Decentralized_Voting_system.sol
+
 ```solidity
 // SPDX-License-Identifier: MIT 
 pragma solidity ^0.8.26;
@@ -72,5 +73,5 @@ contract DecentralizedVoting {
     function getVotes (uint256 candidate) public view returns (uint256) {
         return votes[candidate];
     }
-}
-''' 
+}```
+
